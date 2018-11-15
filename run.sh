@@ -26,7 +26,7 @@ squash_merge() {
 
 rebase_merge() {
 
-    echo "RUNNING SQUASH REBASE MERGE"
+    echo "RUNNING REBASE AND MERGE"
 
     rebase_merge_branch() {
         git checkout master
